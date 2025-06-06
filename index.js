@@ -7,9 +7,9 @@ app.get('/', (req, res) => res.send('AFK_Bot is running!'));
 app.listen(3000, () => console.log('🌐 Web server running on port 3000'));
 
 const bot = mineflayer.createBot({
-  host: 'AGEN2.aternos.me',
-  port: 58248,
-  username: 'AFK_Bot',
+  host: 'afkbottest.aternos.me',
+  port: 36350,
+  username: 'AFK_Bot_1',
 });
 
 bot.on('spawn', () => {
